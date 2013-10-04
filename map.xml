@@ -1,0 +1,201 @@
+<?xml version="1.0"?>
+<map proto="1.3.0">
+<name>Testing Facilities</name> 
+<version>1.0</version> 
+<objective>Eliminate the other team before 5 minutes is up.</objective>
+ 
+<authors>
+    <author>glasstower45</author> 
+</authors>
+ 
+ 
+<contributors>
+    <contributor contribution="Metadata">BobRingard</contributor>
+    <contributor contribution="Help and Feedback">pepsidwag00</contributor>
+    <contributor contribution="Help and Feedback">oscar5519</contributor>
+    <contributor contribution="Help and Feedback">ieatboulders</contributor>
+    <contributor contribution="Help and Feedback">dinner1111</contributor>
+</contributors>
+ 
+<rules>
+    <rule>Normal Overcast Rules (/rules ingame)</rule>
+    <rule>No hiding!</rule>
+</rules>
+<rage/>
+<blitz>   
+    <time>5m</time>       
+    <lives>1</lives>
+    <title>Rage</title>
+</blitz>
+ 
+<kits>
+ <kit name="spawn">
+  <item slot="0" enchantment="damage all:10" lore="§91-Hit Kill!">stone sword</item>
+  <item slot="1" enchantment="arrow damage:10" lore="§91-Shot Kill!">bow</item>
+  <item slot="2" enchantment="damage all:10" lore="§9 Thy Holy Carrot!" amount="5">golden carrot</item>
+  <potion duration="oo" amplifier="4">NIGHT VISION</potion>
+  <item slot="3" amount="1">arrow</item>
+  <potion duration="5" amplifier="1">heal</potion>
+  <potion duration="5" amplifier="4">damage resistance</potion>
+ </kit>
+ 
+ <kit name="red" parents="spawn">
+  <helmet color="cd0000">leather helmet</helmet>
+  <chestplate color="cd0000">leather chestplate</chestplate>
+  <leggings color="cd0000">leather leggings</leggings>
+  <boots color="cd0000">leather boots</boots>
+ </kit>
+</kits>
+ 
+<kit name="blue" parents="spawn">
+ <helmet color="0066cc">leather helmet</helmet>
+ <chestplate color="0066cc">leather chestplate</chestplate>
+ <leggings color="0066cc">leather leggings</leggings>
+ <boots color="0066cc">leather boots</boots>
+</kit>
+<spawns>
+ <spawn team="red" kit="red" yaw="0">
+  <cuboid min="-6,48,-116 cuboid max="-6,48,-116"/>
+ </spawn>
+ <spawn team="blue" kit="blue" yaw="180">
+  <cuboid min="-91,48,-32 cuboid max="-91,48,-32/>
+  </spawn>
+ <default yaw="0">
+  <cylinder base="-127,49,-80" radius="2" height="0"/>
+ </default>
+</spawns>
+ 
+<teams>
+   <team color="dark red" max="10" max-overfill="15">Red Team</team>
+   <team color="blue" max="10" max-overfill="15">Blue Team</team>
+</teams>
+ 
+<regions>
+  <apply block="deny-all">
+   <rectangle name="playable" min="-oo,-oo" max="-oo,-oo"/>
+  </apply>
+</regions>
+<timelock>on</timelock>
+ 
+<killreward>
+ <item amount="1">arrow</item>
+</killreward>
+ 
+<hunger>
+ <depletion>off</depletion>
+</hunger>
+ 
+<toolrepair>
+ <tool>iron sword</tool>
+ <tool>bow</tool><?xml version="1.0"?>
+<map proto="1.3.0">
+<name>Testing Facilities</name> 
+<version>1.0</version> 
+<objective>Eliminate the other team before 5 minutes is up.</objective>
+ 
+<authors>
+    <author>glasstower45</author> 
+</authors>
+ 
+ 
+<contributors>
+    <contributor contribution="Metadata">BobRingard</contributor>
+    <contributor contribution="Help and Feedback">pepsidwag00</contributor>
+    <contributor contribution="Help and Feedback">oscar5519</contributor>
+    <contributor contribution="Help and Feedback">ieatboulders</contributor>
+    <contributor contribution="Help and Feedback">dinner1111</contributor>
+</contributors>
+ 
+<rules>
+    <rule>Normal Overcast Rules (/rules ingame)</rule>
+    <rule>No hiding!</rule>
+</rules>
+<rage/>
+<blitz>   
+    <time>5m</time>       
+    <lives>1</lives>
+    <title>Rage</title>
+</blitz>
+ 
+<kits>
+ <kit name="spawn">
+  <item slot="0" enchantment="damage all:10" lore="§91-Hit Kill!">stone sword</item>
+  <item slot="1" enchantment="arrow damage:10" lore="§91-Shot Kill!">bow</item>
+  <item slot="2" enchantment="damage all:10" lore="§9 Thy Holy Carrot!" amount="5">golden carrot</item>
+  <potion duration="oo" amplifier="4">NIGHT VISION</potion>
+  <item slot="3" amount="1">arrow</item>
+  <potion duration="5" amplifier="1">heal</potion>
+  <potion duration="5" amplifier="4">damage resistance</potion>
+ </kit>
+ 
+ <kit name="red" parents="spawn">
+  <helmet color="cd0000">leather helmet</helmet>
+  <chestplate color="cd0000">leather chestplate</chestplate>
+  <leggings color="cd0000">leather leggings</leggings>
+  <boots color="cd0000">leather boots</boots>
+ </kit>
+</kits>
+ 
+<kit name="blue" parents="spawn">
+ <helmet color="0066cc">leather helmet</helmet>
+ <chestplate color="0066cc">leather chestplate</chestplate>
+ <leggings color="0066cc">leather leggings</leggings>
+ <boots color="0066cc">leather boots</boots>
+</kit>
+<spawns>
+ <spawn team="red" kit="red" yaw="0">
+  <cuboid min="-6,48,-116 cuboid max="-6,48,-116"/>
+ </spawn>
+ <spawn team="blue" kit="blue" yaw="180">
+  <cuboid min="-91,48,-32 cuboid max="-91,48,-32/>
+  </spawn>
+ <default yaw="0">
+  <cylinder base="-127,49,-80" radius="2" height="0"/>
+ </default>
+</spawns>
+ 
+<teams>
+   <team color="dark red" max="10" max-overfill="15">Red Team</team>
+   <team color="blue" max="10" max-overfill="15">Blue Team</team>
+</teams>
+ 
+<regions>
+  <apply block="deny-all">
+   <rectangle name="playable" min="-oo,-oo" max="-oo,-oo"/>
+  </apply>
+</regions>
+<timelock>on</timelock>
+ 
+<killreward>
+ <item amount="1">arrow</item>
+</killreward>
+ 
+<hunger>
+ <depletion>off</depletion>
+</hunger>
+ 
+<toolrepair>
+ <tool>iron sword</tool>
+ <tool>bow</tool>
+</toolrepair>
+ 
+<itemremove>
+ <item>arrow</item>
+ <item>leather helmet</item>
+ <item>leather chestplate</item>
+ <item>leather leggings</item>
+ <item>leather boots</item>
+</itemremove>
+ 
+</map>
+</toolrepair>
+ 
+<itemremove>
+ <item>arrow</item>
+ <item>leather helmet</item>
+ <item>leather chestplate</item>
+ <item>leather leggings</item>
+ <item>leather boots</item>
+</itemremove>
+ 
+</map>
