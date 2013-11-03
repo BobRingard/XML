@@ -13,9 +13,10 @@
 
 
 <contributors>
-    <contributor contribution="Minor Help">Warner75</contributor>
+    <contributor contribution="Minor Building">Warner75</contributor>
     <contributor contribution="Feedback">pepsidawg00</contributor>
     <contributor contribution="Feedback">dinner1111</contributor>
+    <contributor contribution="Building">ieatboulders2</contributor>
 </contributors>
 
  <destroyables name="Tree Monument" materials="obsidian" completion="100%">
