@@ -100,7 +100,6 @@
     <item>leather boots</item>
     <item>leather chestplate</item>
 </itemremove>
+<maxbuildheight>96</maxbuildheight>
+<timelock>on</timelock>
 </map>
-
-
-
