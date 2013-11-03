@@ -6,7 +6,7 @@
 
 
 <authors>
-    <author contribution="Main Design and Building">glasstower45</author> 
+    <authosr contribution="Main Design and Building">glasstower45</author> 
     <author contribution="Building">xannallax33</author>
     <author contribution="Building and XML">BobRingard</author>
 </authors>
@@ -20,24 +20,24 @@
 
  <destroyables name="Tree Monument" materials="obsidian" completion="100%">
     <destroyable owner="purple">
-       <cuboid min="yolo" max="yolo"/>
+       <cuboid min="-40,35,-146" max="-33,44,-141"/>
     </destroyable>
     <destroyable owner="green">
-       <cuboid min="yolo" max="yolo"/>
+       <cuboid min="-82,35,-82" max="-87,44,-77"/>
     </destroyable>
 </destroyables>
 <destroyables name="Valley Monument" materials="obsidian" completion="100%">
-    <destroyable owner="blue">
-       <cuboid min="yolo" max="yolo"/>
+    <destroyable owner="purple">
+       <cuboid min="-63,34,-171" max="-70,49,-177"/>
     </destroyable>
-    <destroyable owner="red">
-       <cuboid min="yolo" max="yolo"/>
+    <destroyable owner="green">
+       <cuboid min="-58,36,-56" max="-60,49,-43"/>
     </destroyable>
 </destroyables>
 <teams>
    <team color="purple" max="50" max-overfill="70">Purple Team</team>
    <team color="green" max="50" max-overfill="70">Green Team</team>
-</teams
+</teams>
 <spawns>
     <spawn team="purple" kit="purple" yaw="90">
         <cuboid min="-18,46,-210" max="-20,46,-208"/>
@@ -53,4 +53,52 @@
     <rule>No spawn killing!</rule>
     <rule>Normal Overcast Rules (/rules)</rule>
 </rules>
+<regions>
+    <cuboid min="-119,4,2" max="-1,110,-227" name="playable"/>
+</regions>
+<playable>
+    <region name="playable" />
+</playable>4
+<kits>
+    <kit name="spawn">
+        <item slot="0">iron sword</item>
+        <item slot="1" enchantment="arrow_infinite:l">bow</item>
+        <item slot="28" amount="1">arrow</item>
+        <item slot="3" enchantment="DURABILITY:l">diamond pickaxe</item>
+        <item slot="4">iron axe</item>
+        <item slot="5" amount="64">log</item>
+        <item slot="6" amount="64">stone</item>
+        <item slot="7" amount="64">ladder</item>
+        <item slot="8" amount="2">golden apple</item>
+        <item slot="8" amount="64">pumpkin pie</item>
+        <potion duration="5" amplifier="1">heal</potion>
+        <potion duration="2" amplifier="2">speed</potion>
+    </kit>
+    <kit name="purple" parents="spawn">
+        <helmet color="fddfd">leather helmet</helmet>
+        <chestplate color="fddfd">leather chestplate</chestplate>
+        <leggings color="fddfd">leather leggings</leggings> 
+        <boots color="fddfd">leather boots</boots> 
+    </kit>
+    <kit name="green" parents="spawn">
+        <helmet color="667F33">leather helmet</helmet>
+        <chestplate color="667F33">leather chestplate</chestplate>
+        <leggings color="667F33">leather leggings</leggings> 
+        <boots color="667F33">leather boots</boots>
+    </kit>
+</kits>
+<toolrepair>
+	<tool>iron sword</tool>
+	<tool>bow</tool>
+	<tool>diamond pickaxe</tool>
+</toolrepair>
+<itemremove>
+    <item>arrow</item>
+    <item>leather helmet</item>
+    <item>leather chestplate</item>
+    <item>leather leggings</item>
+    <item>leather boots</item>
+    <item>leather chestplate</item>
+</itemremove>
 </map>
+
